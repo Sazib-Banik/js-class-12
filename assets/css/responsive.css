@@ -64,7 +64,7 @@
   }
   /* service_part start */
   .service_item {
-    padding: 50px 45px 50px 40px;
+    padding: 40px 30px 40px 30px;
   }
   /* contact_part start */
   .contact_form {
@@ -118,6 +118,9 @@
     padding-top: 70px;
   }
   /* service_item start */
+  .service_item {
+    padding: 40px 40px 40px 30px;
+  }
   .service_item_1 {
     border-radius: 6px 6px 0px 0px;
   }
@@ -186,7 +189,7 @@
     padding: 60px 0;
   }
   .service_item {
-    padding: 50px 60px 50px 40px;
+    padding: 30px 20px 35px 20px;
   }
   .service_item_1 {
     border-radius: 6px 6px 0px 0px;
