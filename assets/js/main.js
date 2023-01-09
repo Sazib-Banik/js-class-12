@@ -1,3 +1,14 @@
+window.onload = function(){
+  const preLoader = document.getElementById("preloader_part");
+  preLoader.className = "page-loaded";
+  setTimeout(function(){
+    preLoader.style.display = "none";
+  }, 500);
+};
+
+
+
+
 const submit_btn = document.getElementById("submit_btn");
 //console.log(submit_btn);
 

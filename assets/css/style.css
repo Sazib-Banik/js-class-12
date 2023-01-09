@@ -57,6 +57,43 @@ p {
   border: #ef6d58;
   color: #391400;
 }
+/* preloader css start */
+#preloader_part {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#preloader_part::after,
+#preloader_part::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: #28293e;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+#preloader_part::before {
+  left: 0;
+}
+#preloader_part::after {
+  right: 0;
+}
+.page-loaded .spinner-border {
+  display: none;
+}
+#preloader_part.page-loaded::before {
+  left: -50%;
+}
+#preloader_part.page-loaded::after {
+  right: -50%;
+}
 /* header_part start */
 #header_part {
   background-color: #28293e;
